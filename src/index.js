@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//import Event1 from './Events/Events';
+//import Event2 from './Events/Events2';
+//import Event3 from './Events/Events3';
+import Event4 from './Events/Events4';
+//import Lifecycle from './components/Lifecycle';
+//import Lifecycle2 from './components/Lifecycle2';
+//import Lifecycle3 from './components/Lifecycle3';
+//import App from './App';
+//import ClassExample from './components/ClassExample'
+//import StateWithEvent from './components/StateWithEvent';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Event4  />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
